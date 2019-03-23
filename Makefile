@@ -13,7 +13,7 @@ else
     BASE_IMAGE_TAG := $(ALPINE_VER)-$(BASE_IMAGE_STABILITY_TAG)
 endif
 
-REPO = wodby/nginx
+REPO = roostaq/nginx
 NAME = nginx-$(NGINX_MINOR_VER)
 
 ifneq ($(STABILITY_TAG),)
